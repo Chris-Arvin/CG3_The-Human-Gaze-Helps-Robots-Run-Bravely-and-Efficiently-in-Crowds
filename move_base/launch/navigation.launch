@@ -1,0 +1,14 @@
+<launch>
+  <!-- fake amcl -->
+  <include file="$(find fake_localization)/launch/fake_localization.launch"/>
+  <!-- move_base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <!-- api2python -->
+    <param name="base_local_planner" value="api2python/API2PythonROS" />
+    <rosparam file="$(find move_base)/param/static_local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find move_base)/param/static_global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find move_base)/param/costmap_common_params_water.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find move_base)/param/costmap_common_params_water.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find move_base)/param/move_base_params.yaml" command="load" />
+  </node>
+</launch>

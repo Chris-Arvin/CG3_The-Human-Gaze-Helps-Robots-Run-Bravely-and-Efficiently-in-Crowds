@@ -1,0 +1,10 @@
+string subject_id
+float64 roll
+float64 pitch
+float64 yaw
+float64 x
+float64 y
+float64 z
+float64 x2map
+float64 y2map
+float64 z2map
