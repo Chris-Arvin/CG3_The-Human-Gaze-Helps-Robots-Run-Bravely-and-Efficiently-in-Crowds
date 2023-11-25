@@ -6,7 +6,6 @@ This is the source code of the ICRA2023 paper [**The Human Gaze Helps Robots Run
 ## Table of Contents
 * [Installation](#1-Installation)
 * [Quick Start](#2-Quick-Start)
-* [Introduction for Parameters](#5-acknowledge)
 * [Contributors](#4-Contributors)
 * [Acknowledgement](#5-acknowledge)
 
@@ -41,5 +40,12 @@ Open another terminal to launch the limit cycle planner:
 $ source CG3_ws/devel/setup.bash
 $ roslaunch limit_cycle limit_cycle.launch
 ```
-## 3. Acknowledge
+## 4. Contributors
+* Qianyi Zhang  arvin.nkzqy@gmail.com
+* Zhengxi Hu
+* Yinuo Song
+* Jiayi Pei
+* Jingtai Liu
+
+## 4. Acknowledge
 This work is inspired by the previous works of [Prof.Lounis](https://scholar.google.fr/citations?user=LWGCtScAAAAJ&hl=en). Thanks again for his introduction of limit cycle. 
