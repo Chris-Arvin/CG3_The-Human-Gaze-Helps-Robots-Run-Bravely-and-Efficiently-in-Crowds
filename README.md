@@ -20,7 +20,7 @@ Then please install this project and build it:
 ```
 $ mkdir -p CG3_ws/src
 $ cd CG3_ws/src
-$ git clone https://github.com/Chris-Arvin/graphicTEB_Improve-Computing-Efficiency-and-Motion-Safety-by-Analyzing-Environment-With-Graphics.git
+$ https://github.com/Chris-Arvin/CG3_The-Human-Gaze-Helps-Robots-Run-Bravely-and-Efficiently-in-Crowds.git
 $ cd ..
 $ rosdep install –from-paths src –ignore-src –rosdistro-melodic -y
 $ catkin_make
